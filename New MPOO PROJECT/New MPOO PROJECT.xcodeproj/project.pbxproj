@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB11C7262A4646A100287476 /* LacationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB11C7252A4646A100287476 /* LacationViewModel.swift */; };
+		FB11C7282A4652C800287476 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB11C7272A4652C800287476 /* Settings.bundle */; };
+		FBAF1CDF2A438FC4005EF205 /* New_MPOO_PROJECTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF1CDE2A438FC4005EF205 /* New_MPOO_PROJECTApp.swift */; };
+		FBAF1CE12A438FC4005EF205 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF1CE02A438FC4005EF205 /* ContentView.swift */; };
+		FBAF1CE32A438FC9005EF205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAF1CE22A438FC9005EF205 /* Assets.xcassets */; };
+		FBAF1CE62A438FC9005EF205 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAF1CE52A438FC9005EF205 /* Preview Assets.xcassets */; };
+		FBAF1CF02A438FC9005EF205 /* New_MPOO_PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF1CEF2A438FC9005EF205 /* New_MPOO_PROJECTTests.swift */; };
+		FBAF1CFA2A438FC9005EF205 /* New_MPOO_PROJECTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF1CF92A438FC9005EF205 /* New_MPOO_PROJECTUITests.swift */; };
+		FBAF1CFC2A438FC9005EF205 /* New_MPOO_PROJECTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF1CFB2A438FC9005EF205 /* New_MPOO_PROJECTUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBAF1CEC2A438FC9005EF205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBAF1CD32A438FC4005EF205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBAF1CDA2A438FC4005EF205;
+			remoteInfo = "New MPOO PROJECT";
+		};
+		FBAF1CF62A438FC9005EF205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBAF1CD32A438FC4005EF205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBAF1CDA2A438FC4005EF205;
+			remoteInfo = "New MPOO PROJECT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB11C7252A4646A100287476 /* LacationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LacationViewModel.swift; sourceTree = "<group>"; };
+		FB11C7272A4652C800287476 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		FBAF1CDB2A438FC4005EF205 /* New MPOO PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New MPOO PROJECT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAF1CDE2A438FC4005EF205 /* New_MPOO_PROJECTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_MPOO_PROJECTApp.swift; sourceTree = "<group>"; };
+		FBAF1CE02A438FC4005EF205 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBAF1CE22A438FC9005EF205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBAF1CE52A438FC9005EF205 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBAF1CEB2A438FC9005EF205 /* New MPOO PROJECTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New MPOO PROJECTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAF1CEF2A438FC9005EF205 /* New_MPOO_PROJECTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_MPOO_PROJECTTests.swift; sourceTree = "<group>"; };
+		FBAF1CF52A438FC9005EF205 /* New MPOO PROJECTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New MPOO PROJECTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAF1CF92A438FC9005EF205 /* New_MPOO_PROJECTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_MPOO_PROJECTUITests.swift; sourceTree = "<group>"; };
+		FBAF1CFB2A438FC9005EF205 /* New_MPOO_PROJECTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_MPOO_PROJECTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBAF1CD82A438FC4005EF205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAF1CE82A438FC9005EF205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAF1CF22A438FC9005EF205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBAF1CD22A438FC4005EF205 = {
+			isa = PBXGroup;
+			children = (
+				FB11C7272A4652C800287476 /* Settings.bundle */,
+				FB11C7252A4646A100287476 /* LacationViewModel.swift */,
+				FBAF1CDD2A438FC4005EF205 /* New MPOO PROJECT */,
+				FBAF1CEE2A438FC9005EF205 /* New MPOO PROJECTTests */,
+				FBAF1CF82A438FC9005EF205 /* New MPOO PROJECTUITests */,
+				FBAF1CDC2A438FC4005EF205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBAF1CDC2A438FC4005EF205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF1CDB2A438FC4005EF205 /* New MPOO PROJECT.app */,
+				FBAF1CEB2A438FC9005EF205 /* New MPOO PROJECTTests.xctest */,
+				FBAF1CF52A438FC9005EF205 /* New MPOO PROJECTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBAF1CDD2A438FC4005EF205 /* New MPOO PROJECT */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF1CDE2A438FC4005EF205 /* New_MPOO_PROJECTApp.swift */,
+				FBAF1CE02A438FC4005EF205 /* ContentView.swift */,
+				FBAF1CE22A438FC9005EF205 /* Assets.xcassets */,
+				FBAF1CE42A438FC9005EF205 /* Preview Content */,
+			);
+			path = "New MPOO PROJECT";
+			sourceTree = "<group>";
+		};
+		FBAF1CE42A438FC9005EF205 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF1CE52A438FC9005EF205 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBAF1CEE2A438FC9005EF205 /* New MPOO PROJECTTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF1CEF2A438FC9005EF205 /* New_MPOO_PROJECTTests.swift */,
+			);
+			path = "New MPOO PROJECTTests";
+			sourceTree = "<group>";
+		};
+		FBAF1CF82A438FC9005EF205 /* New MPOO PROJECTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF1CF92A438FC9005EF205 /* New_MPOO_PROJECTUITests.swift */,
+				FBAF1CFB2A438FC9005EF205 /* New_MPOO_PROJECTUITestsLaunchTests.swift */,
+			);
+			path = "New MPOO PROJECTUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBAF1CDA2A438FC4005EF205 /* New MPOO PROJECT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAF1CFF2A438FC9005EF205 /* Build configuration list for PBXNativeTarget "New MPOO PROJECT" */;
+			buildPhases = (
+				FBAF1CD72A438FC4005EF205 /* Sources */,
+				FBAF1CD82A438FC4005EF205 /* Frameworks */,
+				FBAF1CD92A438FC4005EF205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New MPOO PROJECT";
+			productName = "New MPOO PROJECT";
+			productReference = FBAF1CDB2A438FC4005EF205 /* New MPOO PROJECT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBAF1CEA2A438FC9005EF205 /* New MPOO PROJECTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAF1D022A438FC9005EF205 /* Build configuration list for PBXNativeTarget "New MPOO PROJECTTests" */;
+			buildPhases = (
+				FBAF1CE72A438FC9005EF205 /* Sources */,
+				FBAF1CE82A438FC9005EF205 /* Frameworks */,
+				FBAF1CE92A438FC9005EF205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBAF1CED2A438FC9005EF205 /* PBXTargetDependency */,
+			);
+			name = "New MPOO PROJECTTests";
+			productName = "New MPOO PROJECTTests";
+			productReference = FBAF1CEB2A438FC9005EF205 /* New MPOO PROJECTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBAF1CF42A438FC9005EF205 /* New MPOO PROJECTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAF1D052A438FC9005EF205 /* Build configuration list for PBXNativeTarget "New MPOO PROJECTUITests" */;
+			buildPhases = (
+				FBAF1CF12A438FC9005EF205 /* Sources */,
+				FBAF1CF22A438FC9005EF205 /* Frameworks */,
+				FBAF1CF32A438FC9005EF205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBAF1CF72A438FC9005EF205 /* PBXTargetDependency */,
+			);
+			name = "New MPOO PROJECTUITests";
+			productName = "New MPOO PROJECTUITests";
+			productReference = FBAF1CF52A438FC9005EF205 /* New MPOO PROJECTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBAF1CD32A438FC4005EF205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FBAF1CDA2A438FC4005EF205 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FBAF1CEA2A438FC9005EF205 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FBAF1CDA2A438FC4005EF205;
+					};
+					FBAF1CF42A438FC9005EF205 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FBAF1CDA2A438FC4005EF205;
+					};
+				};
+			};
+			buildConfigurationList = FBAF1CD62A438FC4005EF205 /* Build configuration list for PBXProject "New MPOO PROJECT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBAF1CD22A438FC4005EF205;
+			productRefGroup = FBAF1CDC2A438FC4005EF205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBAF1CDA2A438FC4005EF205 /* New MPOO PROJECT */,
+				FBAF1CEA2A438FC9005EF205 /* New MPOO PROJECTTests */,
+				FBAF1CF42A438FC9005EF205 /* New MPOO PROJECTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBAF1CD92A438FC4005EF205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAF1CE62A438FC9005EF205 /* Preview Assets.xcassets in Resources */,
+				FB11C7282A4652C800287476 /* Settings.bundle in Resources */,
+				FBAF1CE32A438FC9005EF205 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAF1CE92A438FC9005EF205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAF1CF32A438FC9005EF205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBAF1CD72A438FC4005EF205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAF1CE12A438FC4005EF205 /* ContentView.swift in Sources */,
+				FB11C7262A4646A100287476 /* LacationViewModel.swift in Sources */,
+				FBAF1CDF2A438FC4005EF205 /* New_MPOO_PROJECTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAF1CE72A438FC9005EF205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAF1CF02A438FC9005EF205 /* New_MPOO_PROJECTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAF1CF12A438FC9005EF205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAF1CFC2A438FC9005EF205 /* New_MPOO_PROJECTUITestsLaunchTests.swift in Sources */,
+				FBAF1CFA2A438FC9005EF205 /* New_MPOO_PROJECTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBAF1CED2A438FC9005EF205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBAF1CDA2A438FC4005EF205 /* New MPOO PROJECT */;
+			targetProxy = FBAF1CEC2A438FC9005EF205 /* PBXContainerItemProxy */;
+		};
+		FBAF1CF72A438FC9005EF205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBAF1CDA2A438FC4005EF205 /* New MPOO PROJECT */;
+			targetProxy = FBAF1CF62A438FC9005EF205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBAF1CFD2A438FC9005EF205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBAF1CFE2A438FC9005EF205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBAF1D002A438FC9005EF205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"New MPOO PROJECT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Doc";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "La aplicacion necesita acceder a tu ubicacion para buscar los destinos cercanos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Erick.New-MPOO-PROJECT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBAF1D012A438FC9005EF205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"New MPOO PROJECT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Doc";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "La aplicacion necesita acceder a tu ubicacion para buscar los destinos cercanos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Erick.New-MPOO-PROJECT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBAF1D032A438FC9005EF205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Erick.New-MPOO-PROJECTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New MPOO PROJECT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/New MPOO PROJECT";
+			};
+			name = Debug;
+		};
+		FBAF1D042A438FC9005EF205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Erick.New-MPOO-PROJECTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New MPOO PROJECT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/New MPOO PROJECT";
+			};
+			name = Release;
+		};
+		FBAF1D062A438FC9005EF205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Erick.New-MPOO-PROJECTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "New MPOO PROJECT";
+			};
+			name = Debug;
+		};
+		FBAF1D072A438FC9005EF205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Erick.New-MPOO-PROJECTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "New MPOO PROJECT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBAF1CD62A438FC4005EF205 /* Build configuration list for PBXProject "New MPOO PROJECT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAF1CFD2A438FC9005EF205 /* Debug */,
+				FBAF1CFE2A438FC9005EF205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAF1CFF2A438FC9005EF205 /* Build configuration list for PBXNativeTarget "New MPOO PROJECT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAF1D002A438FC9005EF205 /* Debug */,
+				FBAF1D012A438FC9005EF205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAF1D022A438FC9005EF205 /* Build configuration list for PBXNativeTarget "New MPOO PROJECTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAF1D032A438FC9005EF205 /* Debug */,
+				FBAF1D042A438FC9005EF205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAF1D052A438FC9005EF205 /* Build configuration list for PBXNativeTarget "New MPOO PROJECTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAF1D062A438FC9005EF205 /* Debug */,
+				FBAF1D072A438FC9005EF205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBAF1CD32A438FC4005EF205 /* Project object */;
+}
